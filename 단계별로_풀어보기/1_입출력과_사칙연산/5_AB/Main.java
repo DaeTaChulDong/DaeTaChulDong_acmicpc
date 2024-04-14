@@ -20,7 +20,7 @@ public class Main {
 		}
 	
 		System.out.printf("%.9f",((double)A/B));
-		
+		// float로 할 시 소수점9번째 자리까지 정확하게 표현할 수 없으므로 double을 사용해야 한다
 		scanner.close();
 	}
 }
